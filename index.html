@@ -17,7 +17,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="main.js"></script>
 
-    <title>Hello, world!</title>
+    <title>Clickable Map Overlay - Code Tutorial</title>
   </head>
   <body>
  <a name="map_locations">&nbsp;</a>
@@ -25,11 +25,10 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
-        <!-- <img alt="map" class="img-fluid mx-auto" src="images/map.png" /> -->
         <img alt="map" class="img-fluid mx-auto" src="images/usa-map.svg" />
-		    <a class="btn pop default-popup" data-content="for Windstar location" data-placement="top" data-toggle="popover"  data-trigger="focus click"  title="Click the map" id="showPop" tabindex="0" role="button"></a>
-            <a class="btn pop sdiego" data-content="San Diego, CA" data-placement="top" data-toggle="popover" data-trigger="focus" title="USA" id="btn2"  tabindex="0" role="button"><i class="fa fa-map-marker-alt"></i></a>
-            <a class="btn pop tijuana" data-content="Tijuana & Rosorito" data-placement="top" data-toggle="popover" data-trigger="focus" title="Mexico"   id="btn3"  tabindex="0" role="button"><i class="fa fa-map-marker-alt"></i></a>
+		    <a class="btn pop default-popup" data-content="for company locations" data-placement="top" data-toggle="popover"  data-trigger="focus click"  title="Click the map" id="showPop" tabindex="0" role="button"></a>
+            <!-- <a class="btn pop sdiego" data-content="San Diego, CA" data-placement="top" data-toggle="popover" data-trigger="focus" title="USA" id="btn2"  tabindex="0" role="button"><i class="fa fa-map-marker-alt"></i></a> -->
+            <!-- <a class="btn pop tijuana" data-content="Tijuana & Rosorito" data-placement="top" data-toggle="popover" data-trigger="focus" title="Mexico"   id="btn3"  tabindex="0" role="button"><i class="fa fa-map-marker-alt"></i></a>
             <a class="btn pop tucson" data-content="Tucson, AZ" data-placement="top" data-toggle="popover" data-trigger="focus"  title="USA"    id="btn4"  tabindex="0" role="button"><i class="fa fa-map-marker-alt"></i></a>
             <a class="btn pop hermosillo" data-content="Hermosillo, Son." data-placement="top" data-toggle="popover" data-trigger="focus"  title="Mexico"    id="btn5"  tabindex="0" role="button"><i class="fa fa-map-marker-alt"></i></a>
             <a class="btn pop hermosillo" data-content="Hermosillo, Son." data-placement="top" data-toggle="popover" data-trigger="focus"  title="Mexico"    id="btn6"  tabindex="0" role="button"><i class="fa fa-map-marker-alt"></i></a>
@@ -45,9 +44,16 @@
             <a class="btn pop saltillo" data-content="Saltillo, Coah." data-placement="top" data-toggle="popover" data-trigger="focus"  title="Mexico"    id="btn16"  tabindex="0" role="button"><i class="fa fa-map-marker-alt"></i></a>
             <a class="btn pop piedras" data-content="Piedras Negras, Coah" data-placement="top" data-toggle="popover" data-trigger="focus"  title="Mexico"    id="btn17"  tabindex="0" role="button"><i class="fa fa-map-marker-alt"></i></a>
             <a class="btn pop midland" data-content="Midland, TX" data-placement="top" data-toggle="popover" data-trigger="focus"  title="USA"    id="btn18"  tabindex="0" role="button"><i class="fa fa-map-marker-alt"></i></a>
-            <a class="btn pop houston" data-content="Houston, TX" data-placement="top" data-toggle="popover" data-trigger="focus"  title="USA"    id="btn19"  tabindex="0" role="button"><i class="fa fa-map-marker-alt"></i></a>
+            <a class="btn pop houston" data-content="Houston, TX" data-placement="top" data-toggle="popover" data-trigger="focus"  title="USA"    id="btn19"  tabindex="0" role="button"><i class="fa fa-map-marker-alt"></i></a> -->
            
-            <a class="btn pop california" data-content="California" data-placement="top" data-toggle="popover" data-trigger="focus"  title="Slack"    id="btn20"  tabindex="0" role="button"><i class="fa fa-map-marker-alt"></i></a>
+            <a class="btn pop california" data-content="California" data-placement="top" data-toggle="popover" data-trigger="focus"  title="Slack"    id="btn1"  tabindex="0" role="button"><i class="fa fa-map-marker-alt"></i></a>
+            <a class="btn pop washington" data-content="Washington" data-placement="top" data-toggle="popover" data-trigger="focus"  title="Microsoft"    id="btn2"  tabindex="0" role="button"><i class="fa fa-map-marker-alt"></i></a>
+            <a class="btn pop oregon" data-content="Oregon" data-placement="top" data-toggle="popover" data-trigger="focus"  title="Simple"    id="btn3"  tabindex="0" role="button"><i class="fa fa-map-marker-alt"></i></a>
+            <a class="btn pop texas" data-content="Texas" data-placement="top" data-toggle="popover" data-trigger="focus"  title="Spiceworks"    id="btn4"  tabindex="0" role="button"><i class="fa fa-map-marker-alt"></i></a>
+            <a class="btn pop illinois" data-content="Illinois" data-placement="top" data-toggle="popover" data-trigger="focus"  title="Basecamp"    id="btn5"  tabindex="0" role="button"><i class="fa fa-map-marker-alt"></i></a>
+            <a class="btn pop newyork" data-content="New York" data-placement="top" data-toggle="popover" data-trigger="focus"  title="Overgrow"    id="btn6"  tabindex="0" role="button"><i class="fa fa-map-marker-alt"></i></a>
+            <a class="btn pop georgia" data-content="Georgia" data-placement="top" data-toggle="popover" data-trigger="focus"  title="Mailchimp"    id="btn7"  tabindex="0" role="button"><i class="fa fa-map-marker-alt"></i></a>
+            <a class="btn pop florida" data-content="Florida" data-placement="top" data-toggle="popover" data-trigger="focus"  title="Solodev"    id="btn8"  tabindex="0" role="button"><i class="fa fa-map-marker-alt"></i></a>
       </div>
       <!-- col --></div>
     <!-- row--></div>

@@ -169,8 +169,37 @@
     right: 52%;
     top: 50%;
 }
-.map button.btn.pop.houston, .map a.btn.pop.california {
-    left: 5%;
-    top: 30%;
+/* New Map */
+.map button.btn.pop.california, .map a.btn.pop.california {
+    left: 10%;
+    top: 38%;
+}
+.map button.btn.pop.washington, .map a.btn.pop.washington {
+    left: 14%;
+    top: -10%;
+}
+.map button.btn.pop.oregon, .map a.btn.pop.oregon {
+    left: 11%;
+    top: 5%;
+}
+.map button.btn.pop.texas, .map a.btn.pop.texas {
+    left: 44%;
+    bottom: 26%;
+}
+.map button.btn.pop.illinois, .map a.btn.pop.illinois {
+    right: 37%;
+    top: 32%;
+}
+.map button.btn.pop.newyork, .map a.btn.pop.newyork {
+    right: 16%;
+    top: 11%;
+}
+.map button.btn.pop.georgia, .map a.btn.pop.georgia {
+    right: 26%;
+    bottom: 34%;
+}
+.map button.btn.pop.florida, .map a.btn.pop.florida {
+    right: 21%;
+    bottom: 14%;
 }
 /*map*/
