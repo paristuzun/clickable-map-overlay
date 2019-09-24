@@ -7,13 +7,11 @@
     background-attachment: fixed;
 }
 
-.btn.pop {
-    background-image: url("images/map-icon.svg");
-    /* Icon: Map by David from the Noun Project */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+a.btn:before {
+    font-family: FontAwesome;
+    content: "\f041";
+    display: inline-block;
+    vertical-align: middle;
 }
 
 @media (max-width: 320px) {
@@ -66,7 +64,7 @@
 .map button.btn.pop, .map a.btn.pop {
     z-index: 5;
     position: absolute;
-    color: blue;
+    color: #23303f;
     min-width: 0;
 }
 @media (max-width: 575.98px) {
@@ -98,108 +96,49 @@
         top: 30%;
    }
 }
-.map button.btn.pop.default-popup .fa, .map a.btn.pop.default-popup .fa {
-    color: red;
+
+/* New Map */
+.map button.btn.pop.lunarxp-launch-site, .map a.btn.pop.lunarxp-launch-site {
+    left: 9%;
+    top: 30%;
 }
-.map button.btn.pop.sdiego, .map a.btn.pop.sdiego {
-    left: 10%;
-    top: 38%;
-}
-.map button.btn.pop.tijuana, .map a.btn.pop.tijuana {
+.map button.btn.pop.lunarxp-control-center, .map a.btn.pop.lunarxp-control-center {
     left: 14%;
-    top: 41%;
+    top: -17%;
 }
-.map button.btn.pop.tucson, .map a.btn.pop.tucson {
-    left: 18%;
-    top: 35%;
+.map button.btn.pop.lunarxp-rocket-factory, .map a.btn.pop.lunarxp-rocket-factory {
+    left: 11%;
+    top: -2%;
 }
-.map button.btn.pop.hermosillo, .map a.btn.pop.hermosillo {
-    left: 20%;
-    top: 53%;
+.map button.btn.pop.lunarxp-colony-xp-1, .map a.btn.pop.lunarxp-colony-xp-1 {
+    left: 44%;
+    bottom: 22%;
 }
-.map button.btn.pop.agua, .map a.btn.pop.agua {
-    left: 22%;
-    top: 47%;
+.map button.btn.pop.lunarxp-colony-hab-1, .map a.btn.pop.lunarxp-colony-hab-1 {
+    right: 37%;
+    top: 25%;
 }
-.map button.btn.pop.nm, .map a.btn.pop.nm {
-    left: 25%;
-    top: 35%;
+.map button.btn.pop.lunarxp-colony-orbiter-1, .map a.btn.pop.lunarxp-colony-orbiter-1 {
+    right: 15%;
+    top: 4%;
 }
-.map button.btn.pop.elpaso, .map a.btn.pop.elpaso {
-    left: 25%;
-    top: 42%;
-}
-.map button.btn.pop.ciudad, .map a.btn.pop.ciudad {
-    left: 27%;
-    top: 47%;
-}
-.map button.btn.pop.nuevo, .map a.btn.pop.nuevo {
-    left: 25%;
-    top: 53%;
-}
-.map button.btn.pop.cuahu, .map a.btn.pop.cuahu {
-    left: 26%;
-    top: 59%;
-}
-.map button.btn.pop.chih, .map a.btn.pop.chih {
-    left: 28%;
-    top: 55%;
-}
-.map button.btn.pop.meoqui, .map a.btn.pop.meoqui {
-    left: 31%;
-    top: 57%;
-}
-.map button.btn.pop.jal, .map a.btn.pop.jal {
-    left: 32%;
-    bottom: 15%;
-}
-.map button.btn.pop.saltillo, .map a.btn.pop.saltillo {
-    left: 35%;
+.map button.btn.pop.lunar-xplorer, .map a.btn.pop.lunar-xplorer {
+    right: 25%;
     bottom: 30%;
 }
-.map button.btn.pop.piedras, .map a.btn.pop.piedras {
-    left: 35%;
-    bottom: 40%;
-}
-.map button.btn.pop.midland, .map a.btn.pop.midland {
-    left: 35%;
-    bottom: 50%;
-}
-.map button.btn.pop.houston, .map a.btn.pop.houston {
-    right: 52%;
-    top: 50%;
-}
-/* New Map */
-.map button.btn.pop.california, .map a.btn.pop.california {
-    left: 10%;
-    top: 38%;
-}
-.map button.btn.pop.washington, .map a.btn.pop.washington {
-    left: 14%;
-    top: -10%;
-}
-.map button.btn.pop.oregon, .map a.btn.pop.oregon {
-    left: 11%;
-    top: 5%;
-}
-.map button.btn.pop.texas, .map a.btn.pop.texas {
-    left: 44%;
-    bottom: 26%;
-}
-.map button.btn.pop.illinois, .map a.btn.pop.illinois {
-    right: 37%;
-    top: 32%;
-}
-.map button.btn.pop.newyork, .map a.btn.pop.newyork {
-    right: 16%;
-    top: 11%;
-}
-.map button.btn.pop.georgia, .map a.btn.pop.georgia {
-    right: 26%;
-    bottom: 34%;
-}
 .map button.btn.pop.florida, .map a.btn.pop.florida {
-    right: 21%;
+    right: 18%;
     bottom: 14%;
+    transform: rotate(60deg);
+    padding: 10px 44px;
 }
-/*map*/
+
+a.btn.florida:before {
+    content: none;
+}
+
+a.btn.florida {
+    background-image: url("images/solodev-logo-sm.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
