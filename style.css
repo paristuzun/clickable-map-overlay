@@ -1,16 +1,17 @@
 .map {
-    background-image: url("images/map-bg.png");
+    background-color: #0d1d2d;
+    background-image: url("images/bg-blue-image-small.png");
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
     position: relative;
-   /*img*/
-   /*button*/
+    background-attachment: fixed;
+   
+   
 }
 
 .btn.pop {
     background-image: url("images/map-icon.svg");
-    /* Map by David from the Noun Project */
+    /* Icon: Map by David from the Noun Project */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
