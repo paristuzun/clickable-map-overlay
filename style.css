@@ -1,0 +1,173 @@
+.map {
+    background-image: url("images/map-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   /*img*/
+   /*button*/
+}
+
+.btn.pop {
+    background-image: url("images/map-icon.svg");
+    /* Map by David from the Noun Project */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+@media (max-width: 320px) {
+    .map {
+        height: 200px;
+        margin: 4rem 0;
+   }
+}
+@media (min-width: 321px) and (max-width: 480px) {
+    .map {
+        height: 250px;
+        margin: 4rem 0;
+   }
+}
+@media (min-width: 481px) and (max-width: 575.98px) {
+    .map {
+        height: 350px;
+        margin: 4rem 0;
+   }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .map {
+        height: 400px;
+        margin: 4rem 0;
+   }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .map {
+        margin: 4rem 0;
+        height: 500px;
+   }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .map {
+        margin: 6rem 0;
+        height: 600px;
+   }
+}
+@media (min-width: 1200px) {
+    .map {
+        margin: 8rem 0;
+        height: 600px;
+   }
+}
+.map img {
+    margin-top: -10%;
+    position: relative;
+    z-index: 3;
+}
+.map button.btn.pop, .map a.btn.pop {
+    z-index: 5;
+    position: absolute;
+    color: blue;
+    min-width: 0;
+}
+@media (max-width: 575.98px) {
+    .map button.btn.pop, .map a.btn.pop {
+        font-size: 1rem;
+   }
+}
+@media (min-width: 576px) {
+    .map button.btn.pop, .map a.btn.pop {
+        font-size: 2rem;
+   }
+}
+.map button.btn.pop:focus, .map a.btn.pop:focus {
+    box-shadow: unset;
+    outline: 0;
+    border: 0;
+}
+.map button.btn.pop.default-popup, .map a.btn.pop.default-popup {
+    z-index: -1;
+    right: 30%;
+}
+@media (max-width: 767.98px) {
+    .map button.btn.pop.default-popup, .map a.btn.pop.default-popup {
+        bottom: 30%;
+   }
+}
+@media (min-width: 768px) {
+    .map button.btn.pop.default-popup, .map a.btn.pop.default-popup {
+        top: 30%;
+   }
+}
+.map button.btn.pop.default-popup .fa, .map a.btn.pop.default-popup .fa {
+    color: red;
+}
+.map button.btn.pop.sdiego, .map a.btn.pop.sdiego {
+    left: 10%;
+    top: 38%;
+}
+.map button.btn.pop.tijuana, .map a.btn.pop.tijuana {
+    left: 14%;
+    top: 41%;
+}
+.map button.btn.pop.tucson, .map a.btn.pop.tucson {
+    left: 18%;
+    top: 35%;
+}
+.map button.btn.pop.hermosillo, .map a.btn.pop.hermosillo {
+    left: 20%;
+    top: 53%;
+}
+.map button.btn.pop.agua, .map a.btn.pop.agua {
+    left: 22%;
+    top: 47%;
+}
+.map button.btn.pop.nm, .map a.btn.pop.nm {
+    left: 25%;
+    top: 35%;
+}
+.map button.btn.pop.elpaso, .map a.btn.pop.elpaso {
+    left: 25%;
+    top: 42%;
+}
+.map button.btn.pop.ciudad, .map a.btn.pop.ciudad {
+    left: 27%;
+    top: 47%;
+}
+.map button.btn.pop.nuevo, .map a.btn.pop.nuevo {
+    left: 25%;
+    top: 53%;
+}
+.map button.btn.pop.cuahu, .map a.btn.pop.cuahu {
+    left: 26%;
+    top: 59%;
+}
+.map button.btn.pop.chih, .map a.btn.pop.chih {
+    left: 28%;
+    top: 55%;
+}
+.map button.btn.pop.meoqui, .map a.btn.pop.meoqui {
+    left: 31%;
+    top: 57%;
+}
+.map button.btn.pop.jal, .map a.btn.pop.jal {
+    left: 32%;
+    bottom: 15%;
+}
+.map button.btn.pop.saltillo, .map a.btn.pop.saltillo {
+    left: 35%;
+    bottom: 30%;
+}
+.map button.btn.pop.piedras, .map a.btn.pop.piedras {
+    left: 35%;
+    bottom: 40%;
+}
+.map button.btn.pop.midland, .map a.btn.pop.midland {
+    left: 35%;
+    bottom: 50%;
+}
+.map button.btn.pop.houston, .map a.btn.pop.houston {
+    right: 52%;
+    top: 50%;
+}
+/*map*/
