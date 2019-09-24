@@ -5,8 +5,6 @@
     background-repeat: repeat;
     position: relative;
     background-attachment: fixed;
-   
-   
 }
 
 .btn.pop {
@@ -170,5 +168,9 @@
 .map button.btn.pop.houston, .map a.btn.pop.houston {
     right: 52%;
     top: 50%;
+}
+.map button.btn.pop.houston, .map a.btn.pop.california {
+    left: 5%;
+    top: 30%;
 }
 /*map*/
